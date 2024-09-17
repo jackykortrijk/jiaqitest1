@@ -16,4 +16,7 @@ with st.container():
         agree = st.checkbox('显示指数实时折溢价情况')
         fee = st.checkbox('显示基金管理费率（%）')
         set_date = st.checkbox('显示上市日期')
+        
+    with col3:
+        genre = st.radio("机构持有人占比", '高占比（70%以上）', '中占比（40%-70%）', '低占比（70%以下）')
     
