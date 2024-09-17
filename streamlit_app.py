@@ -29,3 +29,4 @@ st.write('获取values第一个值：', values[0])
 
 #文件加载
 ETF_data = pd.read_csv('Alist.csv')
+ETF_data
