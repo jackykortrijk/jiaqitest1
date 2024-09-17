@@ -22,3 +22,7 @@ with st.container():
     
     with col5:
         values = st.slider('基金规模（亿元）：\n', 0.0, 1000.0, (10.0, 500.0))
+        
+st.help(values)
+st.write('values变量是什么：', values)
+st.write('获取values第一个值：', values[0])
