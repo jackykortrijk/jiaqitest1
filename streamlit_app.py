@@ -28,4 +28,4 @@ st.write('values变量是什么：', values)
 st.write('获取values第一个值：', values[0])
 
 #文件加载
-ETF_data = pd.read_csv('C:/streamlittest/Alist.csv', encoding='utf8')
+#ETF_data = pd.read_csv('Alist.csv', encoding='utf8')
