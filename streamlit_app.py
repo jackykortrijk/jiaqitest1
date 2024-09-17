@@ -20,3 +20,5 @@ with st.container():
     with col3:
         genre = st.radio("机构持有人占比", ('高占比（70%以上）', '中占比（40%-70%）', '低占比（70%以下）'))
     
+    with col5:
+        values = st.slider('基金规模（亿元）：\n', 0.0, 1000.0, (10.0, 500.0))
