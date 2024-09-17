@@ -18,5 +18,5 @@ with st.container():
         set_date = st.checkbox('显示上市日期')
         
     with col3:
-        genre = st.radio("机构持有人占比", '高占比（70%以上）', '中占比（40%-70%）', '低占比（70%以下）')
+        genre = st.radio("机构持有人占比", ('高占比（70%以上）', '中占比（40%-70%）', '低占比（70%以下）'))
     
